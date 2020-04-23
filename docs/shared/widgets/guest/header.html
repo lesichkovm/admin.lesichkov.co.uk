@@ -1,0 +1,51 @@
+<style>
+  .WebsiteHeader {
+    background: cadetblue;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .WebsiteHeader .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .WebsiteHeader a {
+    color: white;
+  }
+  .WebsiteHeader td {
+    padding: 10px;
+    color: white;
+  }
+  .WebsiteHeader .Brand {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .WebsiteHeader .Link {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+</style>
+<div class="WebsiteHeader">
+  <div class="container">
+    <table align="center" style="width: 100%;" cellspacing="0" cellpadding="2">
+      <tr>
+        <td class="Brand" width="1" align="left" valign="middle">
+          Admin
+        </td>
+        <td align="left" valign="middle">
+          <span class="Link" onclick="$$.to('https://lesichkov.co.uk')"
+            >About</span
+          >
+        </td>
+        <td width="1" align="right" valign="middle">
+          <span
+            class="Link"
+            style="text-decoration: underline;"
+            onclick="login()"
+          >
+            Login
+          </span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
