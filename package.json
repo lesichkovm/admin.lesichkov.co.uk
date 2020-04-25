@@ -2,7 +2,7 @@
   "name": "admin.lesichkov.co.uk",
   "version": "1.0.0",
   "scripts": {
-    "serve": "browser-sync start --server 'docs' --files '*.html, css/*.css'",
+    "serve": "browser-sync start --server 'docs' --files '**/*'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "proprietary",
